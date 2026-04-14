@@ -1,0 +1,220 @@
+[2026-04-13 10:06:49] [32minfo[39m: ✅ MQTT TCP Broker → 0.0.0.0:1883
+[2026-04-13 10:06:49] [32minfo[39m: ✅ MQTT WebSocket Broker → ws://0.0.0.0:8883
+[2026-04-13 10:06:49] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:06:49] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:06:54] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:06:54] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:06:59] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:06:59] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:04] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:04] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:09] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:09] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:14] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:14] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:19] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:19] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:24] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:24] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:29] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:29] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:34] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:34] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:39] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:39] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:44] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:44] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:49] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:49] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:54] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:54] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:07:59] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:07:59] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:08:04] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:08:04] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:08:09] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:08:09] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:08:14] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:08:14] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:08:19] [33mwarn[39m: ⛔ Auth başarısız {"clientId":"backend-server"}
+[2026-04-13 10:08:19] [31merror[39m: 💥 Client hatası {"clientId":"backend-server","error":"Auth failed"}
+[2026-04-13 10:08:19] [33mwarn[39m: ⚠️  SIGINT alındı — broker kapatılıyor...
+[2026-04-13 10:08:23] [32minfo[39m: ✅ MQTT TCP Broker → 0.0.0.0:1883
+[2026-04-13 10:08:23] [32minfo[39m: ✅ MQTT WebSocket Broker → ws://0.0.0.0:8883
+[2026-04-13 10:08:23] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-64494","username":"admin"}
+[2026-04-13 10:08:23] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-64494","username":"admin","total":1}
+[2026-04-13 10:08:23] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-64494","topic":"smarthome/backend/status"}
+[2026-04-13 10:08:23] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/status","qos":1}
+[2026-04-13 10:08:23] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 10:08:23] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 10:08:23] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 11:00:02] [31merror[39m: 💥 Client hatası {"clientId":"backend-64494","error":"keep alive timeout"}
+[2026-04-13 11:00:02] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-64494","stats":{"msgs":3,"bytes":155,"lastSeen":"2026-04-13T08:00:02.394Z"},"total":0}
+[2026-04-13 11:00:02] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/status"}
+[2026-04-13 11:00:02] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/telemetry"}
+[2026-04-13 11:00:02] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/alert"}
+[2026-04-13 11:00:02] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/ack"}
+[2026-04-13 11:00:07] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-64494","username":"admin"}
+[2026-04-13 11:00:07] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-64494","username":"admin","total":1}
+[2026-04-13 11:00:07] [31merror[39m: 💥 İşlenmeyen Promise reddi {"reason":"TypeError: Cannot read properties of undefined (reading 'topic')"}
+[2026-04-13 11:00:07] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-64494","topic":"smarthome/backend/status"}
+[2026-04-13 11:00:07] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/status","qos":1}
+[2026-04-13 11:00:07] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 11:00:07] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 11:00:07] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 11:17:48] [31merror[39m: 💥 Client hatası {"clientId":"backend-64494","error":"keep alive timeout"}
+[2026-04-13 11:17:48] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-64494","stats":{"msgs":1,"bytes":52,"lastSeen":"2026-04-13T08:17:48.373Z"},"total":0}
+[2026-04-13 11:17:48] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/status"}
+[2026-04-13 11:17:48] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/telemetry"}
+[2026-04-13 11:17:48] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/alert"}
+[2026-04-13 11:17:48] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/ack"}
+[2026-04-13 11:17:53] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-64494","username":"admin"}
+[2026-04-13 11:17:53] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-64494","username":"admin","total":1}
+[2026-04-13 11:17:53] [31merror[39m: 💥 İşlenmeyen Promise reddi {"reason":"TypeError: Cannot read properties of undefined (reading 'topic')"}
+[2026-04-13 11:17:53] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-64494","topic":"smarthome/backend/status"}
+[2026-04-13 11:17:53] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/status","qos":1}
+[2026-04-13 11:17:53] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 11:17:53] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 11:17:53] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 11:34:18] [31merror[39m: 💥 Client hatası {"clientId":"backend-64494","error":"keep alive timeout"}
+[2026-04-13 11:34:18] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-64494","stats":{"msgs":1,"bytes":52,"lastSeen":"2026-04-13T08:34:18.691Z"},"total":0}
+[2026-04-13 11:34:18] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/status"}
+[2026-04-13 11:34:18] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/telemetry"}
+[2026-04-13 11:34:18] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/alert"}
+[2026-04-13 11:34:18] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/ack"}
+[2026-04-13 11:49:25] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-64494","username":"admin"}
+[2026-04-13 11:49:25] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-64494","username":"admin","total":1}
+[2026-04-13 11:49:25] [31merror[39m: 💥 İşlenmeyen Promise reddi {"reason":"TypeError: Cannot read properties of undefined (reading 'topic')"}
+[2026-04-13 11:49:25] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-64494","topic":"smarthome/backend/status"}
+[2026-04-13 11:49:25] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/status","qos":1}
+[2026-04-13 11:49:25] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 11:49:25] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 11:49:25] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 12:04:19] [31merror[39m: 💥 Client hatası {"clientId":"backend-64494","error":"keep alive timeout"}
+[2026-04-13 12:04:19] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-64494","stats":{"msgs":1,"bytes":52,"lastSeen":"2026-04-13T09:04:19.671Z"},"total":0}
+[2026-04-13 12:04:19] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/status"}
+[2026-04-13 12:04:19] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/telemetry"}
+[2026-04-13 12:04:19] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/alert"}
+[2026-04-13 12:04:19] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/ack"}
+[2026-04-13 12:04:24] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-64494","username":"admin"}
+[2026-04-13 12:04:24] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-64494","username":"admin","total":1}
+[2026-04-13 12:04:24] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-64494","topic":"smarthome/backend/status"}
+[2026-04-13 12:04:24] [31merror[39m: 💥 İşlenmeyen Promise reddi {"reason":"TypeError: Cannot read properties of undefined (reading 'topic')"}
+[2026-04-13 12:04:24] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/status","qos":1}
+[2026-04-13 12:04:24] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 12:04:24] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 12:04:24] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 12:21:07] [31merror[39m: 💥 Client hatası {"clientId":"backend-64494","error":"keep alive timeout"}
+[2026-04-13 12:21:07] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-64494","stats":{"msgs":1,"bytes":52,"lastSeen":"2026-04-13T09:21:07.294Z"},"total":0}
+[2026-04-13 12:21:07] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/status"}
+[2026-04-13 12:21:07] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/telemetry"}
+[2026-04-13 12:21:07] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/alert"}
+[2026-04-13 12:21:07] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/ack"}
+[2026-04-13 12:21:12] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-64494","username":"admin"}
+[2026-04-13 12:21:12] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-64494","username":"admin","total":1}
+[2026-04-13 12:21:12] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-64494","topic":"smarthome/backend/status"}
+[2026-04-13 12:21:12] [31merror[39m: 💥 İşlenmeyen Promise reddi {"reason":"TypeError: Cannot read properties of undefined (reading 'topic')"}
+[2026-04-13 12:21:12] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/status","qos":1}
+[2026-04-13 12:21:12] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 12:21:12] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 12:21:12] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 12:35:38] [31merror[39m: 💥 Client hatası {"clientId":"backend-64494","error":"keep alive timeout"}
+[2026-04-13 12:35:38] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-64494","stats":{"msgs":1,"bytes":52,"lastSeen":"2026-04-13T09:35:38.010Z"},"total":0}
+[2026-04-13 12:35:38] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/status"}
+[2026-04-13 12:35:38] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/telemetry"}
+[2026-04-13 12:35:38] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/alert"}
+[2026-04-13 12:35:38] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/ack"}
+[2026-04-13 12:35:43] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-64494","username":"admin"}
+[2026-04-13 12:35:43] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-64494","username":"admin","total":1}
+[2026-04-13 12:35:43] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-64494","topic":"smarthome/backend/status"}
+[2026-04-13 12:35:43] [31merror[39m: 💥 İşlenmeyen Promise reddi {"reason":"TypeError: Cannot read properties of undefined (reading 'topic')"}
+[2026-04-13 12:35:43] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/status","qos":1}
+[2026-04-13 12:35:43] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 12:35:43] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 12:35:43] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 14:01:38] [31merror[39m: 💥 Client hatası {"clientId":"backend-64494","error":"keep alive timeout"}
+[2026-04-13 14:01:38] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-64494","stats":{"msgs":1,"bytes":52,"lastSeen":"2026-04-13T11:01:38.875Z"},"total":0}
+[2026-04-13 14:01:38] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/status"}
+[2026-04-13 14:01:38] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/telemetry"}
+[2026-04-13 14:01:38] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/alert"}
+[2026-04-13 14:01:38] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/ack"}
+[2026-04-13 14:01:43] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-64494","username":"admin"}
+[2026-04-13 14:01:43] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-64494","username":"admin","total":1}
+[2026-04-13 14:01:43] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-64494","topic":"smarthome/backend/status"}
+[2026-04-13 14:01:43] [31merror[39m: 💥 İşlenmeyen Promise reddi {"reason":"TypeError: Cannot read properties of undefined (reading 'topic')"}
+[2026-04-13 14:01:43] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/status","qos":1}
+[2026-04-13 14:01:43] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 14:01:43] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 14:01:43] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 15:08:53] [31merror[39m: 💥 Client hatası {"clientId":"backend-64494","error":"keep alive timeout"}
+[2026-04-13 15:08:53] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-64494","stats":{"msgs":1,"bytes":52,"lastSeen":"2026-04-13T12:08:53.336Z"},"total":0}
+[2026-04-13 15:08:53] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/status"}
+[2026-04-13 15:08:53] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/telemetry"}
+[2026-04-13 15:08:53] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/alert"}
+[2026-04-13 15:08:53] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/ack"}
+[2026-04-13 15:08:58] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-64494","username":"admin"}
+[2026-04-13 15:08:58] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-64494","username":"admin","total":1}
+[2026-04-13 15:08:58] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-64494","topic":"smarthome/backend/status"}
+[2026-04-13 15:08:58] [31merror[39m: 💥 İşlenmeyen Promise reddi {"reason":"TypeError: Cannot read properties of undefined (reading 'topic')"}
+[2026-04-13 15:08:58] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/status","qos":1}
+[2026-04-13 15:08:58] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 15:08:58] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 15:08:58] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 15:26:28] [31merror[39m: 💥 Client hatası {"clientId":"backend-64494","error":"keep alive timeout"}
+[2026-04-13 15:26:28] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-64494","stats":{"msgs":1,"bytes":52,"lastSeen":"2026-04-13T12:26:28.612Z"},"total":0}
+[2026-04-13 15:26:28] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/status"}
+[2026-04-13 15:26:28] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/telemetry"}
+[2026-04-13 15:26:28] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/alert"}
+[2026-04-13 15:26:28] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/ack"}
+[2026-04-13 15:43:29] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-64494","username":"admin"}
+[2026-04-13 15:43:29] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-64494","username":"admin","total":1}
+[2026-04-13 15:43:29] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-64494","topic":"smarthome/backend/status"}
+[2026-04-13 15:43:29] [31merror[39m: 💥 İşlenmeyen Promise reddi {"reason":"TypeError: Cannot read properties of undefined (reading 'topic')"}
+[2026-04-13 15:43:29] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/status","qos":1}
+[2026-04-13 15:43:29] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 15:43:29] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 15:43:29] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 15:58:46] [31merror[39m: 💥 Client hatası {"clientId":"backend-64494","error":"keep alive timeout"}
+[2026-04-13 15:58:46] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-64494","stats":{"msgs":1,"bytes":52,"lastSeen":"2026-04-13T12:58:46.496Z"},"total":0}
+[2026-04-13 15:58:46] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/status"}
+[2026-04-13 15:58:46] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/telemetry"}
+[2026-04-13 15:58:46] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/alert"}
+[2026-04-13 15:58:46] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/ack"}
+[2026-04-13 15:58:51] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-64494","username":"admin"}
+[2026-04-13 15:58:51] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-64494","username":"admin","total":1}
+[2026-04-13 15:58:51] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-64494","topic":"smarthome/backend/status"}
+[2026-04-13 15:58:51] [31merror[39m: 💥 İşlenmeyen Promise reddi {"reason":"TypeError: Cannot read properties of undefined (reading 'topic')"}
+[2026-04-13 15:58:51] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/status","qos":1}
+[2026-04-13 15:58:51] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 15:58:51] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 15:58:51] [32minfo[39m: 📥 Abonelik {"clientId":"backend-64494","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 16:01:55] [33mwarn[39m: ⚠️  SIGINT alındı — broker kapatılıyor...
+[2026-04-13 16:01:55] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-64494","stats":{"msgs":1,"bytes":52,"lastSeen":"2026-04-13T13:01:55.108Z"},"total":0}
+[2026-04-13 16:01:55] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/status"}
+[2026-04-13 16:01:55] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/telemetry"}
+[2026-04-13 16:01:55] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/alert"}
+[2026-04-13 16:01:55] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-64494","topic":"smarthome/+/ack"}
+[2026-04-13 16:02:02] [32minfo[39m: ✅ MQTT TCP Broker → 0.0.0.0:1883
+[2026-04-13 16:02:02] [32minfo[39m: ✅ MQTT WebSocket Broker → ws://0.0.0.0:8883
+[2026-04-13 16:02:02] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-67850","username":"admin"}
+[2026-04-13 16:02:02] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-67850","username":"admin","total":1}
+[2026-04-13 16:02:02] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-67850","topic":"smarthome/backend/status"}
+[2026-04-13 16:02:02] [32minfo[39m: 📥 Abonelik {"clientId":"backend-67850","topic":"smarthome/+/status","qos":1}
+[2026-04-13 16:02:02] [32minfo[39m: 📥 Abonelik {"clientId":"backend-67850","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 16:02:02] [32minfo[39m: 📥 Abonelik {"clientId":"backend-67850","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 16:02:02] [32minfo[39m: 📥 Abonelik {"clientId":"backend-67850","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 16:05:23] [32minfo[39m: ✅ MQTT TCP Broker → 0.0.0.0:1883
+[2026-04-13 16:05:23] [32minfo[39m: ✅ MQTT WebSocket Broker → ws://0.0.0.0:8883
+[2026-04-13 16:05:23] [32minfo[39m: 🔑 Auth başarılı {"clientId":"backend-68175","username":"admin"}
+[2026-04-13 16:05:23] [32minfo[39m: 🔌 Bağlandı {"clientId":"backend-68175","username":"admin","total":1}
+[2026-04-13 16:05:23] [32minfo[39m: 🕯️  Will tanımlandı {"clientId":"backend-68175","topic":"smarthome/backend/status"}
+[2026-04-13 16:05:23] [32minfo[39m: 📥 Abonelik {"clientId":"backend-68175","topic":"smarthome/+/status","qos":1}
+[2026-04-13 16:05:23] [32minfo[39m: 📥 Abonelik {"clientId":"backend-68175","topic":"smarthome/+/telemetry","qos":0}
+[2026-04-13 16:05:23] [32minfo[39m: 📥 Abonelik {"clientId":"backend-68175","topic":"smarthome/+/alert","qos":2}
+[2026-04-13 16:05:23] [32minfo[39m: 📥 Abonelik {"clientId":"backend-68175","topic":"smarthome/+/ack","qos":1}
+[2026-04-13 16:08:14] [33mwarn[39m: ⚠️  SIGINT alındı — broker kapatılıyor...
+[2026-04-13 16:08:14] [32minfo[39m: ❌ Ayrıldı {"clientId":"backend-68175","stats":{"msgs":2,"bytes":103,"lastSeen":"2026-04-13T13:08:14.586Z"},"total":0}
+[2026-04-13 16:08:14] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-68175","topic":"smarthome/+/status"}
+[2026-04-13 16:08:14] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-68175","topic":"smarthome/+/telemetry"}
+[2026-04-13 16:08:14] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-68175","topic":"smarthome/+/alert"}
+[2026-04-13 16:08:14] [32minfo[39m: 🔕 Abonelik iptal {"clientId":"backend-68175","topic":"smarthome/+/ack"}

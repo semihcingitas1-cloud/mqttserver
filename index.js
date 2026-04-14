@@ -6,6 +6,7 @@ const cookieParser = require('cookie-parser');
 
 const db = require('./config/db.js');
 
+require("./services/mqttBroker.js");
 const mqttServices = require('./services/mqttServices.js');
 
 const user = require('./routes/user.js');

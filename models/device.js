@@ -11,8 +11,8 @@ const deviceSchema = new mongoose.Schema({
     type: {
 
         type: String,
-        required: true,
-        enum: ['Gateway', 'Sensör', 'Güvenlik', 'İklimlendirme', 'Güç'],
+        //required: true,
+        //enum: ['Gateway', 'Sensör', 'Güvenlik', 'İklimlendirme', 'Güç'],
         default: 'Sensör'
     },
     serialNumber: {

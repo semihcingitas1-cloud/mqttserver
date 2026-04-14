@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const Device = require('../models/device.js');
 const User = require('../models/user.js');
 
+const { sendCommand } = require('../services/mqttServices.js');
 const pairingSessions = require('../utils/pairingStore');
 
 const getMyDevices = async (req, res) => {
@@ -65,8 +66,20 @@ const completePairing = async (req, res) => {
 
   try {
 
+    console.log("📥 İstek geldi:", req.body);
     const { pairingCode, serialNumber } = req.body;
+
+    if (!pairingCode || !serialNumber) {
+      console.log("❌ pairingCode veya serialNumber eksik");
+      return res.status(400).json({ success: false, message: "Eksik parametre" });
+    }
+
+
     const session = pairingSessions.get(pairingCode);
+
+    console.log("🔍 Session:", session);
+    console.log("📋 Tüm sessionlar:", [...pairingSessions.entries()]);
+
 
     if (!session) {
 
@@ -84,7 +97,7 @@ const completePairing = async (req, res) => {
       owner: session.owner, 
       homeId: session.homeId, 
       roomId: session.roomId, 
-      name: session.name, 
+      name: session.name || "Yeni Cihaz", 
       type: session.type, 
       serialNumber, 
       isPaired: true,
@@ -132,4 +145,37 @@ const deleteDevice = async (req, res) => {
   }
 };
 
-module.exports = { getMyDevices, generatePairingCode, completePairing, deleteDevice };
+const sendDeviceCommand = async (req, res) => {
+
+  try {
+
+    const { serialNumber, action } = req.body;
+    const device = await Device.findOneAndUpdate( { serialNumber }, { $set: { "data.relayState": action } }, { returnDocument: 'after' } );
+
+    if (!device) {
+
+      return res.status(404).json({ message: "Cihaz bulunamadı" });
+    }
+
+    if (device.owner.toString() !== req.user.id) {
+
+      return res.status(401).json({ message: "Bu işlem için yetkiniz yok." });
+    }
+
+    sendCommand(device, action);
+
+    await Device.findOneAndUpdate(
+
+      { serialNumber },
+      { $set: { "data.relayState": action } }
+    );
+
+    res.status(200).json({ success: true, action, serialNumber });
+  } catch (error) {
+
+    console.error("COMMAND HATASI:", error.message);
+    res.status(500).json({ message: error.message });
+  }
+};
+
+module.exports = { getMyDevices, generatePairingCode, completePairing, deleteDevice, sendDeviceCommand };
