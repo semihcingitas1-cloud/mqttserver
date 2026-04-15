@@ -42,6 +42,12 @@ db();
 
 app.use('/', user);
 app.use('/api/devices', device);
+
+app.get('/health', (req, res) => {
+
+  res.status(200).send('OK');
+});
+
 app.get('/', (req, res) => {
 
   res.send('Akıllı Ev ve Web Backend Sunucusu Çalışıyor...');
