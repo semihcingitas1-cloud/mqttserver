@@ -18,7 +18,12 @@ app.use(cors({
 
   origin: (origin, callback) => {
 
-    const allowedOrigins = ['http://localhost:3000'];
+    const allowedOrigins = [
+
+      'http://localhost:3000',
+      'https://ornekciceksitesi.com',
+      'https://smarthome-six-nu.vercel.app'
+    ];
 
     if (!origin) return callback(null, true);
 
