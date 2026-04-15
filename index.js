@@ -14,31 +14,25 @@ const device = require('./routes/devices.js');
 
 const app = express();
 
+const allowedOrigins = [
+  'http://localhost:3000',
+  'https://ornekciceksitesi.com',
+  'https://smarthome-six-nu.vercel.app'
+];
+
 app.use(cors({
-
-  origin: (origin, callback) => {
-
-    const allowedOrigins = [
-
-      'http://localhost:3000',
-      'https://ornekciceksitesi.com',
-      'https://smarthome-six-nu.vercel.app'
-    ];
-
+  origin: function (origin, callback) {
     if (!origin) return callback(null, true);
 
     if (allowedOrigins.includes(origin)) {
-
-      callback(null, true);
-    } else {
-
-      callback(new Error(`CORS engellendi: ${origin}`));
+      return callback(null, true);
     }
+
+    return callback(null, false); // ❗ ERROR THROW YOK
   },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
 }));
-
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
