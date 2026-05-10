@@ -1,7 +1,7 @@
 const mqtt = require("mqtt");
 const Device = require("../models/device");
 
-const MQTT_BROKER = process.env.MQTT_BROKER || "mqtt://0.0.0.0:1883";
+const MQTT_BROKER = "mqtt://0.0.0.0:1883";
 const CLIENT_ID = "backend-server";
 
 console.log("🚀 MQTT servisi başlatılıyor...");
