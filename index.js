@@ -11,6 +11,7 @@ const mqttServices = require('./services/mqttServices.js');
 
 const user = require('./routes/user.js');
 const device = require('./routes/devices.js');
+const auto = require('./routes/automation.js');
 
 const app = express();
 
@@ -37,6 +38,7 @@ db();
 
 app.use('/', user);
 app.use('/api/devices', device);
+app.use('/api/automation', auto);
 
 app.get('/health', (req, res) => {
 
